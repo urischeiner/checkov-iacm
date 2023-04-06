@@ -1,0 +1,10 @@
+name: Checkov
+inputs:
+  directory:
+    description: The IaC directory you want to scan with Checkov.
+    required: true
+  flags:
+    description: Additional Checkov flags
+
+run:
+  sh: plugin.sh
