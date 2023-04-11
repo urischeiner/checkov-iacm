@@ -1,3 +1,3 @@
 # !/bin/sh
 sudo pip install -U checkov
-checkov --directory ${inputs.directory} ${inputs.flags}
+checkov --directory ${PLUGIN_DIRECTORY} ${PLUGIN_FLAG}
