@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_checkov_iacm_1694287886980-pr-trigger-input-set
+  identifier: Build_checkov_iacm_1694287886980prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_checkov_iacm_1694287886980
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
